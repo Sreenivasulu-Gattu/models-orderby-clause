@@ -13,6 +13,7 @@ class Webpage(models.Model):
     topic_name=models.ForeignKey(Topic,on_delete=models.CASCADE)
     name=models.CharField(max_length=100)
     url=models.URLField()
+    email=models.EmailField(default='india@gmail.com')
 
     def __str__(self):
         return self.name
@@ -23,6 +24,7 @@ class AccessRecord(models.Model):
     author=models.CharField(max_length=100)
     def __str__(self):
         return self.author
+
 
 
 
