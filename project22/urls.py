@@ -23,7 +23,20 @@ urlpatterns = [
     path('display_webpages/',display_webpages,name='display_webpages'),
     path('insert_topic/',insert_topic,name='insert_topic'),
     path('insert_webpage/',insert_webpage,name='insert_webpage'),
+    path('display_access/',display_access,name='display_access'),
+    path('update_webpage/',update_webpage,name='update_webpage'),
 ]
+
+
+
+
+
+
+
+
+
+
+
 
 
 
